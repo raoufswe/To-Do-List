@@ -18,4 +18,4 @@ It was developed using Javascript/ES6 and supports the following functions:
 
 Check out the website using the following link
 
-www.to-do-list-rs.netlify.com
+https://to-do-list-rs.netlify.com/
