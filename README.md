@@ -1,6 +1,6 @@
 # To-Do-List
 
-A simple to-do list application that uses the browser's local storage to save the data.
+A To-do list application is a simple website that uses the browser's local storage to save the data.
 
 It was developed using Javascript/ES6 and supports the following functions:
 
