@@ -1,20 +1,4 @@
-/*
-// Colors
-$off-black: #20222b;
-$dark-blue: #333745;
-$blue: #3c4251;
-$light-blue: #464b5e;
-$off-white: #a5afd7;
-$purple: #8357c5;
-// Spacing
-$s-size: 1.2rem;
-$m-size: 1.6rem;
-$l-size: 3.2rem;
-$xl-size: 4.8rem;
-$desktop-breakpoint: 45rem;
-*/
 
-/* Base Styles */
 
 * {
     box-sizing: border-box;
@@ -27,19 +11,17 @@ html {
 }
 
 body {
-    background: #2B292E;
-  color: #fafafa;
+    
+    color: #333333;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
 }
 
 button {
   cursor: pointer;
+  
 }
 
-a {
-    color: #6F439C;
-}
 
 /* Container */
 
@@ -52,7 +34,7 @@ a {
 /* Header */
 
 .header {
-  background: #2B292E;
+  background: #F69542;
   color:white;
   padding: 1.6rem 0;
   text-align: center
@@ -72,9 +54,10 @@ a {
 /* Actions Bar */
 
 .actions {
-    background-color: #353239;
+    background-color: #F7F7F7;
     /* border-bottom: 1px solid #dedfe0; */
     /* color: #333333; */
+    border-bottom: 1px solid #dedfe0;
     padding: 1rem
     
 }
@@ -95,7 +78,7 @@ a {
 /* Form Inputs */
 
 .input {
-    border: none;
+    
     font-size: 1.4rem;
     font-weight: 300;
     height: 3rem;
@@ -113,9 +96,8 @@ a {
 }
 
 .button {
-    background: orangered;
+    background: #F69542;
     border: none;
-    
     color: white;
     font-size: 1.4rem;
     font-weight: 300;
@@ -124,7 +106,7 @@ a {
 }
 
 .button:hover {
-    background: #5F3A87;
+    background: #D74F35;
 }
 
 .button--secondary {
@@ -139,7 +121,7 @@ a {
 .button--text {
     background: none;
     border: none;
-    color: #aaa;
+    color: black
 }
 
 .button--text:hover {
@@ -162,6 +144,7 @@ a {
 
 .body-input {
     border: 1px solid #DEDFE0;
+    color: #333333;
     font-family: inherit;
     font-size: 1.6rem;
     font-weight: 300;
@@ -178,8 +161,8 @@ a {
     text-decoration: none;
     color: #fafafa;
     cursor: pointer;
-    background: #353239;
-    border: 1px solid #423e47;
+    background: white;
+    border: 1px solid #F69542;
     margin: 1.6rem 0;
     padding: 1rem 1.6rem;
     display: block;
@@ -192,6 +175,7 @@ a {
 .list-item__container {
     display: flex;
     font-size: 1.8rem;
+    color: #333333;
     font-weight: 300;
     align-items: baseline;
 }
@@ -201,7 +185,7 @@ a {
 }
 
 .list-item:hover {
-    background: #3d3941;
+    background: #F69542;
 }
 
 .list-item__title {
