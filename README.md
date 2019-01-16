@@ -15,7 +15,3 @@ It was developed using Javascript/ES6 and supports the following functions:
 5- Hide the completed tasks.
 
 6- Get the total number of the incompleted todos. 
-
-Check out the website using the following link
-
-https://to-do-list-rs.netlify.com/
